@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>3633621862</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\ad.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Cry12864.pbi</file>
+            <file>$PROJ_DIR$\Config.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\ad9834.r43</file>
+            <file>$PROJ_DIR$\Cry12864.h</file>
+            <file>$PROJ_DIR$\Cry12864.c</file>
+            <file>$TOOLKIT_DIR$\inc\msp430f149.h</file>
+            <file>$TOOLKIT_DIR$\inc\in430.h</file>
+            <file>$TOOLKIT_DIR$\config\linker\lnk430f149.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\msp430x14x.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\key.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\打点.pbd</file>
+            <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\ad9834.pbi</file>
+            <file>$PROJ_DIR$\ad9834.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\打点.ulp</file>
+            <file>$PROJ_DIR$\Debug\Exe\打点.d43</file>
+            <file>$PROJ_DIR$\Debug\Obj\Cry12864.r43</file>
+            <file>$PROJ_DIR$\..\..\output\ad9834.c</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
+            <file>$PROJ_DIR$\key.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\ad.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\key.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\ad.r43</file>
+            <file>$TOOLKIT_DIR$\config\linker\multiplier.xcl</file>
+            <file>$PROJ_DIR$\Debug\Exe\打点.txt</file>
+            <file>$PROJ_DIR$\ad.c</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 18 28</file>
+                </tool>
+                <tool>
+                    <name>ULP430</name>
+                    <file> 17</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Cry12864.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 19</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 1</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 9 7 13</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 13 7 9</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 10</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 25</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 6 7 13 4 0 2 16</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 16 7 0 4 2 13 6</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\打点.d43</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 8 27 26 3 19 10 21</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\output\ad9834.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 3</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 15</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 6 7 13</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 13 7 6</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\key.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 24</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 11</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 9 7 13</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 13 7 9</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\ad.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 26</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 23</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 9 7 13</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 13 7 9</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

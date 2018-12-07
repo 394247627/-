@@ -1,0 +1,14 @@
+void Delay_1ms(void);
+void Delay_Nms(unsigned int n);
+void Delay(unsigned int n);
+void Write_Cmd(unsigned char cod);
+void Write_Data(unsigned char dat);
+void Ini_Lcd(void);
+void Clear_GDRAM(void);
+void Disp_Char(unsigned char x,unsigned char y,unsigned char data);
+void set_dot(unsigned char x,unsigned char y);
+void dot_clear(unsigned char x,unsigned char y);
+void LCDfloat(int f_data,unsigned char x,unsigned char y) ;       
+void clear_the_dot(unsigned char x,unsigned char y);
+void DisplayCgrom(unsigned char addr,unsigned char *hz);
+void LCD_clear(void) ;
